@@ -1,0 +1,23 @@
+body {
+    background-color: #cccccc;
+}
+
+#button {
+    width: 200px;
+    height: 200px;
+    background-color: #ff6347;
+    border-radius: 50%;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+    user-select: none;
+    box-shadow: 0 20px 0 #cc4f39;
+}
+
+#button:active {
+    box-shadow: 0 10px 0 #cc4f39;
+    margin-top: 110px;
+}
